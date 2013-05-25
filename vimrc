@@ -6,7 +6,7 @@
 :set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:< "kad :set list rodytų viską, išskyrus tarpus
 
 "VIM Addon Manager nustatymai
-"mkdir .vim/vim-addons/
+"mkdir ~/.vim/vim-addons/
 "git clone git://github.com/MarcWeber/vim-addon-manager.git ~/.vim/vim-addons/vim-addon-manager/
 set runtimepath+=~/.vim/vim-addons/vim-addon-manager
 call vam#ActivateAddons(['a', 'Syntastic', 'pylint', 'c%213', 'clang_complete', 'AutoComplPop', 'L9', 'surround', 'clang', 'The_NERD_tree'])
